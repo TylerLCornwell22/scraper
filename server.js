@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Connect to the Mongo DB
-mongoose.connect("mongodb://<dbuser>:<dbpassword>@ds127825.mlab.com:27825/heroku_r4qdm3c8" || "mongodb://localhost/nytfood", { useNewUrlParser: true });
+mongoose.connect("mongodb://<heroku_r4qdm3c8>:<esXyd9Y-rngKC8U>@ds127825.mlab.com:27825/heroku_r4qdm3c8" || "mongodb://localhost/nytfood", { useNewUrlParser: true });
 
 // Routes
 
